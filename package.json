@@ -1,6 +1,6 @@
 {
-  "name": "insta-bot",
-  "version": "1.0.0",
+  "name": "instagram-bot",
+  "version": "1.0.1",
   "description": "A simple tool to automate instagram tasks",
   "license": "MIT",
   "repository": {
@@ -15,7 +15,10 @@
     "bot",
     "automation",
     "puppeteer",
-    "instagram-bot"
+    "insta-bot",
+    "instagram-bot",
+    "instagram-automation",
+    "instagram-api"
   ],
   "author": "prashant rewar",
   "type": "module",

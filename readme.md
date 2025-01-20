@@ -1,6 +1,7 @@
-# insta-bot
+# instagram-bot
 
 A powerful and flexible Node.js package to automate various Instagram activities like liking posts, following users, commenting, sharing, and uploading posts. Built using Puppeteer, this bot interacts directly with Instagram's web interface, offering fine control over automation tasks.
+- **Unique**: The bot creates a chrome instanse and manually does things including delays to mimic human-like behavior, reducing the chances of being flagged by Instagram..
 
 ## Features
 
@@ -10,13 +11,15 @@ A powerful and flexible Node.js package to automate various Instagram activities
 - **Comment on Posts**: Post comments on targeted Instagram posts.
 - **Share Posts**: Automate sharing of posts.
 - **Upload Posts**: Upload images with captions and tags.
+**More features soon!**
+
 
 ## Installation
 
-To use the `insta-bot`, ensure you have [Node.js](https://nodejs.org/) installed, then install the package using npm:
+To use the `instagram-bot`, ensure you have [Node.js](https://nodejs.org/) installed, then install the package using npm:
 
 ```bash
-npm install insta-bot
+npm install instagram-bot
 ```
 
 ## Usage
@@ -24,7 +27,7 @@ npm install insta-bot
 ### Basic Example
 
 ```javascript
-import instaBot from "insta-bot";
+import instaBot from "instagram-bot";
 
 const bot = new instaBot();
 
