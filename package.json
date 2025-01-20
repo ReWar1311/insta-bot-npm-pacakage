@@ -2,7 +2,21 @@
   "name": "insta-bot",
   "version": "1.0.0",
   "description": "A simple tool to automate instagram tasks",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReWar1311/insta-bot-npm-pacakage"
+  },
+  "bugs": {
+    "url": "https://github.com/ReWar1311/insta-bot-npm-pacakage/issues"
+  },
+  "keywords": [
+    "instagram",
+    "bot",
+    "automation",
+    "puppeteer",
+    "instagram-bot"
+  ],
   "author": "prashant rewar",
   "type": "module",
   "main": "index.js",

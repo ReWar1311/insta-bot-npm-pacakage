@@ -194,9 +194,10 @@ async function startbot(params) {
               });
               await page.evaluate(async () => {
                 await new Promise(function (resolve) {
-                  setTimeout(resolve, 5000);
+                  setTimeout(resolve, Math.floor(Math.random() * 3000));
                 });
               }); // Waits for 5 seconds (5000 milliseconds)
+              await page.keyboard.press("Enter");
               await new Promise(function (resolve) {
                 setTimeout(resolve, Math.floor(Math.random() * 3000));
               });
